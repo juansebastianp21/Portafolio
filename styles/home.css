@@ -212,17 +212,28 @@ footer {
 }
 .form-button {
     background-color: #026fff;
-    padding: 5px 20px;
+    padding: 10px 20px;
     text-decoration: none;
     color: #ffffff;
     border-radius: 5px;
     margin-top: 10px;
     float: right;
-    font-size: 15px;
+    font-size: 17px;
 
 }
 .left-container {
     font-size: 20px;
+}
+.left-container img {
+    margin: 0 20px;
+}
+.row {
+    margin-bottom: 15px;
+}
+.location, .phone, .email {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .footer-image-container {
     margin: 0;
