@@ -1,0 +1,266 @@
+/* CSS de etiquetas */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+  /* font-style: italic; */
+}
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0;
+}
+h1 strong {
+    color: #026fff;
+}
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+figure {
+    margin: 0;
+}
+img {
+    margin: 0 ;
+}
+footer {
+    margin: 0;
+}
+
+/* CSS de clases */
+.container {
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header ul {
+    display: flex;
+    height: inherit;
+}
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header ul li {
+    height: inherit;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+.menu {
+    height: inherit;
+}
+.hero {
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-image {
+    object-fit: cover;
+}
+.portafolio {
+    background: #fafafa;
+    margin: 0;
+    padding: 20px;
+}
+.project {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-details {
+    width: 50%;
+}
+.project-image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.project-image {
+    max-width: 100%;
+}
+.project-title {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.project-tech, .project-date, .project-url {
+    margin: 10px 0;
+}
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+.project-url a {
+    text-decoration: none;
+    color: black;
+}
+.project-description {
+    font-size: 20px;
+}
+.experiencia {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.event {
+    margin: 1%;
+    width: 48%;
+    border-radius: 20px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background: #f4fbff;
+}
+.event-image-container {
+    width: 100%;
+}
+.event-image {
+    width: inherit;
+}
+.event-detail {
+    margin: 20px 40px;
+    margin-top: -40px;
+    padding: 20px;
+    background: white;
+    position: relative;
+    text-align: center;
+}
+.event-description {
+    text-align: left;
+}
+.event-url {
+    border: 1px solid #026fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #026fff;
+    border-radius: 5px;
+}
+.contacto {
+    padding: 20px;
+    background-color: #fafafa;
+}
+.contacto-title {
+    text-align: center;
+}
+.contacto-subtitle {
+    text-align: center;
+    margin: 15px 0;
+}
+.contacto-container {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left-container {
+    width: 50%;
+}
+.form-container {
+    width: 50%;
+}
+.form {
+    width: 100%;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+
+}
+.half {
+    width: 47%;
+}
+.input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    background-color: transparent;
+    font-size: 15px;
+}
+.form-button {
+    background-color: #026fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: right;
+    font-size: 15px;
+
+}
+.left-container {
+    font-size: 20px;
+}
+.footer-image-container {
+    margin: 0;
+    padding: 0;
+    max-height: 800px;
+    overflow: hidden;
+}
+.footer-image {
+    width: 100%;
+    object-fit: cover;
+    /* height: auto; */
+}
+.footer {
+    background-color: #026fff;
+    margin: 0;
+    padding: 20px 0;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+.social-link.twitter {
+    background-image: url(../Images/twiter.svg);
+}
+.social-link.instagram {
+    background-image: url(../Images/instagram.svg);
+}
+.social-link.github {
+    background-image: url(../Images/github.svg);
+}
+.social-link.facebook {
+    background-image: url(../Images/facebook.svg);
+}
